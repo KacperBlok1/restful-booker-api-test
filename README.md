@@ -1,5 +1,12 @@
 # RESTful Booker API Test Automation
 
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Pytest](https://img.shields.io/badge/tested%20with-pytest-green)
+![API Testing](https://img.shields.io/badge/testing-API-orange)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
+![Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Tests](https://github.com/KacperBlok1/restful-booker-api-test/actions/workflows/tests.yml/badge.svg)
+
 Automated API test suite for the demo application:
 https://restful-booker.herokuapp.com
 
@@ -9,7 +16,13 @@ The framework covers core REST API scenarios including authentication, CRUD oper
 
 ---
 
-# Tech Stack
+# 📊 Example Test Report
+
+![Test Report](docs/report-example.png)
+
+---
+
+# 🚀 Tech Stack
 
 | Tool           | Purpose                      |
 | -------------- | ---------------------------- |
@@ -21,7 +34,7 @@ The framework covers core REST API scenarios including authentication, CRUD oper
 
 ---
 
-# Project Structure
+# 📁 Project Structure
 
 ```text
 restful-booker-api-tests/
@@ -80,7 +93,7 @@ CI pipeline configuration.
 
 ---
 
-# Test Design
+# 🧪 Test Design
 
 The suite focuses on key areas of the **Restful Booker API**.
 
@@ -128,8 +141,6 @@ PUT /booking/{id}
 DELETE /booking/{id}
 ```
 
-Test scenarios include:
-
 ### Booking listing
 
 Retrieve all bookings using:
@@ -142,7 +153,7 @@ GET /booking
 
 ### Full CRUD workflow
 
-The framework verifies a complete booking lifecycle:
+The framework verifies a complete booking lifecycle.
 
 **1️⃣ Create booking**
 
@@ -184,7 +195,7 @@ Remove the booking and verify that it no longer exists.
 
 ---
 
-# Test Markers
+# 🏷 Test Markers
 
 Tests are organized using **pytest markers**.
 
@@ -202,7 +213,7 @@ pytest -m smoke
 
 ---
 
-# Running Tests Locally
+# ⚡ Running Tests Locally
 
 ## 1. Clone the repository
 
@@ -275,7 +286,7 @@ in your browser to view detailed test results.
 
 ---
 
-# Continuous Integration
+# 🔁 Continuous Integration
 
 This repository includes a **GitHub Actions CI pipeline**.
 
@@ -304,21 +315,7 @@ You can view the latest runs in the **Actions tab** of the repository.
 
 ---
 
-# Why This Project
-
-This project demonstrates how I:
-
-* design a structured **API automation framework**
-* implement **pytest fixtures and reusable components**
-* test **positive, negative and end-to-end API scenarios**
-* generate **clear and shareable HTML test reports**
-* integrate automated tests into a **CI pipeline**
-
-It represents a **compact real-world example of an API test automation setup** that could be used as a starting point for larger QA automation projects.
-
----
-
-# Author
+# 👨‍💻 Author
 
 **Kacper Blok**
 
