@@ -18,7 +18,7 @@ The framework covers core REST API scenarios including authentication, CRUD oper
 
 # 📊 Example Test Report
 
-![Test Report](docs/report-example.png)
+![Test Report](docs/example.png)
 
 ---
 
